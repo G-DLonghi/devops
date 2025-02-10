@@ -21,14 +21,29 @@
             padding: 20px;
         }
         footer {
-            background-color: #333;
+            background-color:#45a049;
             color: white;
             text-align: center;
             padding: 10px;
             position: fixed;
             bottom: 0;
             width: 100%;
+            display: flex;
+            justify-content: space-between;
         }
+        .contatos{
+            align-items: center;
+            justify-content: center;
+            display: flex;
+            padding-right: 20px;
+        }
+        img{
+            width: 30px;
+            height: 30px;
+            padding: 10px;
+            align-items: center;
+        }
+        
         .btn {
             background-color: #4CAF50;
             color: white;
@@ -69,6 +84,13 @@
 
 <footer>
     <p>&copy; 2025 Projeto GitHub PR - Todos os direitos reservados.</p>
+    <div class="contatos">
+        <p>Nossos contatos:</p>
+        <img src="whatsapp.png" alt="">
+        <p>(11)999123-4567</p>
+        <img src="instagram.png" alt="">
+        <p>@nosso_insta</p>
+    </div>
 </footer>
 
 </body>
